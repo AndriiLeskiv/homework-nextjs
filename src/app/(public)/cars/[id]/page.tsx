@@ -7,16 +7,16 @@ type Props = {
 
 export const generateMetadata = ({params}: Props): Metadata => {
     return {
-        title: `Comment page title ${params.id}`,
+        title: `Car page title ${params.id}`,
     };
 }
 
-const CommentPage: FC<Props> = ({params}) => {
+const CarPage: FC<Props> = ({params}) => {
     return (
         <div>
-            Comment page content {params.id}
+            Car page content {params.id}
         </div>
     );
 };
 
-export default CommentPage;
+export default CarPage;
