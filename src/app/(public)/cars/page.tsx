@@ -7,5 +7,4 @@ const CarsPage = () => {
         </div>
     );
 };
-
 export default CarsPage;
